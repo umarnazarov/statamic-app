@@ -1,0 +1,31 @@
+title: Banner
+fields:
+  -
+    handle: banner_title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Banner Title'
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+  -
+    handle: banner_image
+    field:
+      max_files: 1
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: 'Banner Image'
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

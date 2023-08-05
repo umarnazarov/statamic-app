@@ -1,0 +1,25 @@
+{{# <nav>
+    <a href="">Logo</a>
+    <ul>
+        {{nav:collection:pages}}
+        <li><a href="{{url}}">{{title}}</a></li>
+        {{/nav:collection:pages}}
+    </ul>
+</nav> #}}
+
+<header class="w-full">
+    <nav class="bg-white border-gray-200 py-2.5 ">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+            <a href="/" class="flex items-center">
+                <span class="self-center text-xl font-semibold whitespace-nowrap ">Statamic App</span>
+            </a>
+            <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                    {{nav:collection:pages}}
+                        <li><a href="{{url}}" class="block py-2 pl-3 pr-4  {{is_current || is_parent ?= 'text-blue-700' }}">{{title}}</a></li>
+                    {{/nav:collection:pages}}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,14 @@
+title: 'Related Entries'
+fields:
+  -
+    handle: entries_list
+    field:
+      mode: default
+      create: true
+      type: entries
+      display: 'Entries List'
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false

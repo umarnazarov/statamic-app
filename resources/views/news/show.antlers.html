@@ -1,0 +1,12 @@
+<div class="max-w-4xl mx-auto px-12 my-12">
+    <article >
+        <header class="max-w-3xl content">
+            <h1 class="text-5xl font-black text-left leading-none">{{ title }}</h1>
+        </header>
+        <img class="rounded-xl w-full my-12 aspect-video object-cover" src="{{ featured_image }}" alt="{{ featured_image:alt }}">
+        <section class="max-w-4xl mx-auto  space-y-6">
+            {{ content }}
+        </section>
+    </article>
+    {{partial:news/related}}
+</div>

@@ -1,0 +1,9 @@
+<div class="grid grid-cols-3 py-8 gap-4">
+    {{if entries_list }}
+        {{entries_list}}
+            <div>
+                {{partial:news/card}}        
+            </div>
+        {{/entries_list}}
+    {{/if }}
+</div>

@@ -1,0 +1,8 @@
+name: Umar
+super: true
+id: 785638e8-4373-4f28-98f9-e3583fa94fc3
+password_hash: $2y$10$qhe2W4zyo8UpnCZ5988M3.FWODxcqXsiiI/MK0GwfcMsFPKBKoYbC
+preferences:
+  assets:
+    assets:
+      mode: grid
